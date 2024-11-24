@@ -1,0 +1,46 @@
+# Gradle
+.gradle/
+build/
+*/build/
+!gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Android Studio
+.idea/
+*.iml
+
+# Local configuration file (SDK, etc)
+local.properties
+
+# User-specific files
+*.swp
+*.swo
+*~
+*.log
+
+# Android specific
+*.apk
+*.ap_ 
+*.db
+*.db-journal
+
+# Firebase / Crashlytics configuration
+google-services.json
+crashlytics-build.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# Android Emulator
+*.avd
+*.emulator_*
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Optional: Android-specific build captures
+/captures
+.externalNativeBuild
+.cxx
